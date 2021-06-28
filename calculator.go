@@ -47,6 +47,6 @@ func calc() {
 		var num2 float64
 		fmt.Scanln(&num2)
 		var quot float64 = num1 / num2
-		fmt.Printf("The quotient is %v\n", quot)
+		fmt.Println("The quotient is", quot)
 	}
 }
